@@ -1,4 +1,4 @@
-This is the report of the google machine learning crash course(upto regularisation:simplicity).
+This is the report of the google machine learning crash course(upto regularisation: sparsity).
 
 # ML Concepts
 
@@ -18,7 +18,7 @@ Assessment of check your understanding questions of this topic:
 ### Linear regression model
 
 Using an example where features and label can be approximately related as a linear function, a model y' = wx + b is used to describe the relationship.
-The training of the model to come up with an optimal values of weight vector(w) and bias(b) is explained.
+The training of the model to come up with an optimal value of weight vector(w) and bias(b) is explained.
 As the data cannot be perfectly expressed as a line equation, there is a need to minimise the error between the predicted value and the observation.
 The mean squared loss function, which is convex hence can be minimised, proves to be a practical loss function.
 Assessment of check your understanding questions of this topic:
@@ -93,7 +93,7 @@ Assessment of check your understanding:
 ![ML Feature crosses](https://user-images.githubusercontent.com/81472530/114303077-ca7a4400-9ae9-11eb-9764-1fa5bf14e319.jpg)
 
 
-## Regularisation:Simplicity
+## Regularisation: Simplicity
 
 The playground exercise depicts a case of over-crossing.
 Regularisation refers to the penalising of the weights of features to avoid over-fitting.
@@ -131,6 +131,27 @@ Assessment of check your understanding:
 ROC shows the performance of the classification by plotting TPR and FPR. AUC is the area under ROC curve.
 AUC can be interpreted as the probability of correctly predicting a pair of positive and negative picked randomly from the set.
 It does not depend on scaling or classification threshold.
+
+![ML ROC](https://user-images.githubusercontent.com/81472530/114307785-b2f98600-9afe-11eb-88cd-4b3ebbe97510.jpg)
+
+![ML AUC](https://user-images.githubusercontent.com/81472530/114307823-e6d4ab80-9afe-11eb-8552-6c39aa51db7f.jpg)
+
+Prediction bias is a quantity that measures how far apart the average of predictions and observations are.
+Though a significant prediction bias implies that the model is not good, low value of prediction bias does not mean that the model is perfect.
+
+
+## Regularisation: Sparsity
+
+In large data sets, for faster and more efficient processing, it is necessary that some weights are 0(which does not happen in L2).
+This is attained by using L1 regularisation, which penalises |weight|.
+The playground exercise shows an example where changing from L2 to L1 reduces the value of weights and decreases the test loss.
+Assessment of check your understanding:
+
+![ML sparsity](https://user-images.githubusercontent.com/81472530/114308588-23ee6d00-9b02-11eb-88d9-519bcc012afa.jpg)
+
+
+
+
 
 
 
