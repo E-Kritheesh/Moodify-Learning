@@ -4,7 +4,7 @@ The assignment is uploaded at this link:
 
 https://github.com/wncc/learners-space/blob/master/Machine%20Learning/MId%20Term%20Assignment/README.md
 
-My answers to the questions in the form in challenge-1: 
+My answers to the questions in the form in problem-1 challenge-1: 
 
 Minimum AveMonthSpend            = 22
 
