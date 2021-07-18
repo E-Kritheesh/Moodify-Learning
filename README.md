@@ -18,7 +18,7 @@ Link to the Android Studio code repo: https://github.com/E-Kritheesh/Moodify-And
 
 ### 5th July - 11th July: Change to Streamlit and UI Design
 Got used to Streamlit and its features(after the change by mentors to drop the Android app) and designed the UI of the web app.
-My work, before integration with the models, can be found in this link:https://share.streamlit.io/e-kritheesh/moodify/main/moodify_app.py
+My work, before integration with the models, can be found in this link: https://share.streamlit.io/e-kritheesh/moodify/main/moodify_app.py
 
 ### 12th July - 18th July: Deploying the web app and integration with other sub-systems
 Deployed the app using Streamlit sharing, changed the UI to improve the user-friendliness of the app in a mobile.
