@@ -6,9 +6,11 @@ Learnt the basics and some important packages in python. The assignment 1 is abo
 
 
 ### 4th April - 10th April: Google ML Crash Course & Assignment-2
+The LM-3 report folder contains the short description of the concepts learnt in the course. The assignment 2 folder contains the solution to data exploration and regression problems.
 
 
 ### 11th April - 18th May (extended period due to midsems): OpenCV and Deep Learning & Assignment-3
+Learnt about neural networks, convolutional NNs and some of the widely used loss functions. The assignment-3 folder contains a feed forward neural network from scratch and a digit recogniser model.
 
 
 ### 19th May - 11th June: Android Studio tutorial + UI Design of the Android app (for front end app dev)
