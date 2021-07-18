@@ -1,5 +1,7 @@
 This is my first repo in github, it is created for the assignments of Moodify.
 
+Final web app link: https://share.streamlit.io/e-kritheesh/mooodify_app/moodify_app.py
+
 # Timeline of the project
 ### 28th March - 3rd April: Python basics & Assignment-1
 Learnt the basics and some important packages in python. The assignment 1 is about the spread of a virus in a group of 15000 people represented by a 2D matrix. The ones in the matrix represent infected people. Each iteration can be thought of as a spreading cycle. Certain graphs were plotted after analysing it using python.
